@@ -1,5 +1,6 @@
 site_name: Haig Fras Digital Twin
-
+site_url: https://imfe-pilot-docs.gitlab.io/home
+site_dir: public
 nav:
   - 'index.md'
   - 'about.md'
