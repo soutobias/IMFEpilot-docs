@@ -54,9 +54,13 @@ It's essential to set this location as environment variables, `VITE_LAYERS_JSON_
 
 Various techniques are applied to process and render maps for various data formats, including:
 - [Cloud Optimized GeoTIFF](cog.md)
+
 - [MBTiles](mbtiles.md)
+
 - [WMS Layers](wms.md)
+
 - [Cesium Ion](cesium_ion.md)
+
 - [Photos](photos.md)
 
 ### Frontend Calculations

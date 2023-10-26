@@ -72,9 +72,13 @@ The codes for converting data are described in the [Data Pipelines repository](h
 
 More information about all the data types that we have been working with are described below:
 - [Cloud Optimized GeoTIFF](cog.md)
+
 - [MBTiles](mbtiles.md)
+
 - [WMS Layers](wms.md)
+
 - [Cesium Ion](cesium_ion.md)
+
 - [CSV - Organisms Annotation](photos.md)
 
 ## Authentication
