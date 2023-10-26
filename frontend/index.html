@@ -6,13 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         
         
-        
+        <link rel="canonical" href="https://imfe-pilot-docs.gitlab.io/home/frontend/">
         <link rel="shortcut icon" href="../img/favicon.ico">
         <title>Frontend Documentation - Haig Fras Digital Twin</title>
         <link href="../css/bootstrap.min.css" rel="stylesheet">
         <link href="../css/font-awesome.min.css" rel="stylesheet">
         <link href="../css/base.css" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css">
+        <link href="../css/print-site-enum-headings1.css" rel="stylesheet">
+        <link href="../css/print-site-enum-headings2.css" rel="stylesheet">
+        <link href="../css/print-site-enum-headings3.css" rel="stylesheet">
+        <link href="../css/print-site-enum-headings4.css" rel="stylesheet">
+        <link href="../css/print-site-enum-headings5.css" rel="stylesheet">
+        <link href="../css/print-site-enum-headings6.css" rel="stylesheet">
+        <link href="../css/print-site.css" rel="stylesheet">
+        <link href="../css/print-site-mkdocs.css" rel="stylesheet">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
         <script>hljs.highlightAll();</script> 
     </head>
@@ -102,7 +110,7 @@
 <h2 id="general-project-infrastructure">General Project Infrastructure</h2>
 <p>The frontend accesses data from various sources and utilizes different microservices. All these services are containerized using Docker for easy deployment and management.</p>
 <h2 id="website-organization">Website Organization</h2>
-<p>The structure of the web application is primarily centered around the configuration file <a href="/public/website.json">/public/website.json</a>. This file defines the general structure of the items in the site's sidebar. It's important to exercise caution when making changes to this file, as it can potentially affect the organization of the site.</p>
+<p>The structure of the web application is primarily centered around a configuration file. This file defines the general structure of the items in the site's sidebar. It's important to exercise caution when making changes to this file, as it can potentially affect the organization of the site.</p>
 <p>Within this configuration file, you can add the following elements:
 - New sections to the sidebar
 - Information for info buttons
@@ -123,11 +131,21 @@
 <p>It's essential to set this location as environment variables, <code>VITE_LAYERS_JSON_URL</code> and <code>VITE_LAYERS3D_JSON_URL</code>.</p>
 <h3 id="interaction-with-different-data-types">Interaction with Different Data Types</h3>
 <p>Various techniques are applied to process and render maps for various data formats, including:
-- <a href="../cog/">Cloud Optimized GeoTIFF</a>
-- <a href="../mbtiles/">MBTiles</a>
-- <a href="../wms/">WMS Layers</a>
-- <a href="../cesium_ion/">Cesium Ion</a>
-- <a href="../photos/">Photos</a></p>
+- <a href="../cog/">Cloud Optimized GeoTIFF</a></p>
+<ul>
+<li>
+<p><a href="../mbtiles/">MBTiles</a></p>
+</li>
+<li>
+<p><a href="../wms/">WMS Layers</a></p>
+</li>
+<li>
+<p><a href="../cesium_ion/">Cesium Ion</a></p>
+</li>
+<li>
+<p><a href="../photos/">Photos</a></p>
+</li>
+</ul>
 <h3 id="frontend-calculations">Frontend Calculations</h3>
 <p>The frontend utilizes the <a href="https://geoblaze.io/">GeoBlaze</a> library for performing specific operations. This library is particularly useful for conducting simple statistical operations on GeoTIFF files. When working with COG format images, it's important to download only the necessary tiles and then perform mathematical operations.</p>
 <h3 id="backend-calculations">Backend Calculations</h3>
@@ -146,6 +164,7 @@
                 shortcuts = {"help": 191, "next": 78, "previous": 80, "search": 83};
         </script>
         <script src="../js/base.js"></script>
+        <script src="../js/print-site.js"></script>
         <script src="../search/main.js"></script>
 
         <div class="modal" id="mkdocs_search_modal" tabindex="-1" role="dialog" aria-labelledby="searchModalLabel" aria-hidden="true">
