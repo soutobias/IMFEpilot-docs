@@ -71,6 +71,7 @@ In this project, data from different formats is converted into formats optimized
 The codes for converting data are described in the [Data Pipelines repository](https://git.noc.ac.uk/ocean-informatics/imfepilot/data-pipelines).
 
 More information about all the data types that we have been working with are described below:
+
 - [Cloud Optimized GeoTIFF](cog.md)
 
 - [MBTiles](mbtiles.md)
