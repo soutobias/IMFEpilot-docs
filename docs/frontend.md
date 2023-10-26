@@ -53,6 +53,7 @@ It's essential to set this location as environment variables, `VITE_LAYERS_JSON_
 ### Interaction with Different Data Types
 
 Various techniques are applied to process and render maps for various data formats, including:
+
 - [Cloud Optimized GeoTIFF](cog.md)
 
 - [MBTiles](mbtiles.md)
