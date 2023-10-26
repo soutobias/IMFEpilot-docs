@@ -10,9 +10,9 @@ Cloud Optimized GeoTIFF (COG) files are a specialized format for efficiently sto
 
 ## Tile Server Approach
 
-### 1) Tile Server powered by [www.titiler.xyz](www.titiler.xyz)
+### 1) Tile Server powered by [www.titiler.xyz](https://www.titiler.xyz)
 
-One of our methods for accessing COG images involves utilizing a tile server based on [www.titiler.xyz](www.titiler.xyz). This tile server has been deployed and is currently in production use. You can access the live deployment through the following links:
+One of our methods for accessing COG images involves utilizing a tile server based on [www.titiler.xyz](https://www.titiler.xyz). This tile server has been deployed and is currently in production use. You can access the live deployment through the following links:
 
 - [https://imfe-pilot-tileserver.noc.ac.uk.net/](https://imfe-pilot-tileserver.noc.ac.uk.net/)
 - [https://haigfras-salt-tileserver.co.uk/](https://haigfras-salt-tileserver.co.uk/)

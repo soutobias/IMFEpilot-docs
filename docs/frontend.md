@@ -15,7 +15,7 @@ The frontend accesses data from various sources and utilizes different microserv
 
 ## Website Organization
 
-The structure of the web application is primarily centered around the configuration file [/public/website.json](/public/website.json). This file defines the general structure of the items in the site's sidebar. It's important to exercise caution when making changes to this file, as it can potentially affect the organization of the site.
+The structure of the web application is primarily centered around a configuration file. This file defines the general structure of the items in the site's sidebar. It's important to exercise caution when making changes to this file, as it can potentially affect the organization of the site.
 
 Within this configuration file, you can add the following elements:
 - New sections to the sidebar

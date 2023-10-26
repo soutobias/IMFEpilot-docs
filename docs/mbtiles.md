@@ -31,7 +31,7 @@ Detailed steps for file conversion are described in the [repository](https://git
 
 To provide a visual overview, here's an example of a 2D map rendering using MBTiles data:
 
-![2D Map Overview](public/readme/mbtiles.png)
+![2D Map Overview](assets/mbtiles.png)
 
 *The above image illustrates a 2D map visualization using MBTiles data.*
 
